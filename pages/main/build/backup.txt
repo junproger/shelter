@@ -1,0 +1,47 @@
+
+                        <div class="slider_card slider_order_one">
+                            <div class="card_image katrine">
+                            </div>
+                            <div class="card_title">
+                                Katrine
+                            </div>
+                            <div class="card_button">
+                                <button class="learn_more learn_more_text">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="slider_card mobi_cards slider_order_two">
+                            <div class="card_image jennifer">
+                            </div>
+                            <div class="card_title">
+                                Jennifer
+                            </div>
+                            <div class="card_button">
+                                <button class="learn_more learn_more_text">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="slider_card tabl_cards slider_order_three">
+                            <div class="card_image woody">
+                            </div>
+                            <div class="card_title">
+                                Woody
+                            </div>
+                            <div class="card_button">
+                                <button class="learn_more learn_more_text">Learn more</button>
+                            </div>
+                        </div>
+						
+						
+.slider_order_one {
+    order: 1;
+}
+.slider_order_two {
+    order: 2;
+}
+.slider_order_three {
+    order: 3;
+}
+.tabl_cards,
+.mobi_cards {
+    display: block;
+}
+

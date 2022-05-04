@@ -1,0 +1,111 @@
+<!-- shelter html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./../../assets/icons/favicon-16x16b.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./../../assets/icons/favicon-32x32b.png">
+    <link rel="stylesheet" type="text/css" href="./normalize.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Shelter Pets</title>
+</head>
+<body class="body_style">
+    <a id="pets"></a>
+    <div class="modal_wrapper disable">
+        <div class="modal_border disable">
+            <div class="modal_button">
+                <button class="modal_close"></button>
+            </div>
+            <div class="modal_window">
+                <div class="modal_image"><img class="big_image" data-pets="bigimg" src="" alt="img"></div>
+                <div class="modal_info">
+                    <div class="modal_head">
+                        <h3 class="modal_title" data-pets="name"></h3>
+                        <h4 class="modal_subtitle"><span data-pets="type"></span> — <span data-pets="breed"></span></h4>
+                    </div>
+                    <p class="modal_text" data-pets="description"></p>
+                    <ul class="modal_list">
+                        <li class="modal_item"><strong class="item_term">Age: </strong><span class="item_info" data-pets="age"></span></li>
+                        <li class="modal_item"><strong class="item_term">Inoculations: </strong><span class="item_info" data-pets="inoculations"></span></li>
+                        <li class="modal_item"><strong class="item_term">Diseases: </strong><span class="item_info" data-pets="diseases"></span></li>
+                        <li class="modal_item"><strong class="item_term">Parasites: </strong><span class="item_info" data-pets="parasites"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <header class="header_style">
+            <div class="header_content">
+                <div class="logo">
+                    <a class="logo_link" href="./../main/index.html">
+                        <h1 class="logo_title">Cozy House</h1>
+                        <p class="logo_subtitle">Shelter for pets in Boston</p>
+                    </a>
+                </div>
+                <div class="burger">
+                    <span class="line1"></span>
+                    <span class="line2"></span>
+                    <span class="line3"></span>
+                </div>
+                <div class="nav_menu">
+                    <ul class="menu_list">
+                        <li class="list">
+                            <a class="link" href="./../main/index.html">About the shelter</a>
+                        </li>
+                        <li class="list active">
+                            <a class="link" href="./index.html#pets">Our pets</a>
+                        </li>
+                        <li class="list">
+                            <a class="link" href="./../main/index.html#help">Help the shelter</a>
+                        </li>
+                        <li class="list">
+                            <a class="link" href="./index.html#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="pets_wrapper">
+            <div class="pets_content">
+                <h3 class="heading_pets">
+                    Our friends who<br />are looking for a house
+                </h3>
+                <div class="cards_wrapper">
+
+                </div>
+                <div class="pagination">
+                    <div class="pagin_block left_start "><button class="pagin_button left_start inactive_btn"><span class="pagin_char inactive_char">&lt;&lt;</span></button></div>
+                    <div class="pagin_block left_next"><button class="pagin_button left_next inactive_btn"><span class="pagin_char inactive_char">&lt;</span></button></div>
+                    <div class="pagin_block page_number"><button class="pagin_button page_number activing"><span class="pagin_char" id="page">1</span></button></div>
+                    <div class="pagin_block right_next"><button class="pagin_button right_next default"><span class="pagin_char">&gt;</span></button></div>
+                    <div class="pagin_block right_end"><button class="pagin_button right_end default"><span class="pagin_char">&gt;&gt;</span></button></div>
+                </div>
+            </div>
+        </main>
+        <a id="contacts"></a>
+        <footer class="footer_style">
+            <div class="footer_content">
+                <div class="footer_contacts">
+                    <h3 class="contacts_title contacts_fonts">For questions and suggestions</h3>
+                    <h4 class="email"><a href="mailto:email@shelter.com"><span class="mail_icon"></span></a><a class="mail_link links_fonts" href="mailto:email@shelter.com">email@shelter.com</a></h4>
+                    <h4 class="phone"><a href="tel:+136745677554"><span class="phone_icon"></span></a><a class="phone_link links_fonts" href="tel:+136745677554">+13 674 567 75 54</a></h4>
+                </div>
+                <div class="footer_locations">
+                    <h3 class="locations_title locations_fonts">We are waiting for your visit</h3>
+                    <h4 class="boston"><a target="new" href="https://goo.gl/maps/GzreY6nbx9MQsGZ17"><span class="icon_marker"></span></a><a class="boston_link links_fonts" target="new" href="https://goo.gl/maps/GzreY6nbx9MQsGZ17">1 Central Street, Boston (entrance from the store)</a></h4>
+                    <h4 class="london"><a target="new" href="https://goo.gl/maps/hyhQSUH6CrT42Bw27"><span class="icon_marker"></span></a><a class="london_link links_fonts" target="new" href="https://goo.gl/maps/hyhQSUH6CrT42Bw27">18 South Park, London</a></h4>
+                </div>
+            </div>
+            <div class="footer_puppy">
+                <!-- empty block -->
+            </div>
+        </footer>
+    </div>
+    <script src="./object.js"></script>
+    <script src="./script.js"></script>
+    <script src="./paging.js"></script>
+</body>
+</html>

@@ -1,0 +1,384 @@
+/* about css */
+.main_style {
+    width: 100%;
+    max-width: 1280px;
+    min-height: 2538px;
+    background: #F6F6F6;
+}
+.about_block {
+    width: 100%;
+    max-width: 1280px;
+    min-height: 588px;
+    padding: 80px 0 100px;
+    background: #FFFFFF;
+}
+.about_content {
+    width: 100%;
+    max-width: 1200px;
+    min-height: 408px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.about_pets {
+    width: 100%;
+    max-width: 300px;
+    min-height: 408px;
+    background-size: contain;
+    background-image: url(./../../../assets/images/pets.png);
+    background-repeat: no-repeat;
+    order: 1;
+}
+.content_pets {
+    width: 100%;
+    max-width: 430px;
+    min-height: 380px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+    order: 2;
+}
+.heading_pets {
+    width: 100%;
+    max-width: 370px;
+    min-height: 90px;
+    font-family: 'Georgia', 'Georgia Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.05em;
+    color: #545454;
+}
+.pets_subhead1 {
+    width: 100%;
+    max-width: 430px;
+    min-height: 96px;
+}
+.pets_subhead2 {
+    width: 100%;
+    max-width: 430px;
+    min-height: 144px;
+}
+.subhead_font {
+    font-family: 'Arial', 'Arial Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4C4C4C;
+}
+@media screen and (width: 1280px) {
+    .main_style {
+        width: 100%;
+        max-width: 1280px;
+        min-height: 2538px;
+    }
+    .about_block {
+        width: 100%;
+        max-width: 1280px;
+        min-height: 588px;
+        padding: 80px 0 100px;
+    }
+    .about_content {
+        width: 100vw;
+        max-width: 1200px;
+        min-height: 408px;
+        margin: 0 auto;
+        gap: 120px;
+    }
+    .about_pets {
+        width: 100vw;
+        max-width: 300px;
+        min-height: 408px;
+        order: 1;
+    }
+    .content_pets {
+        width: 100vw;
+        max-width: 430px;
+        min-height: 380px;
+        order: 2;
+    }
+}
+@media (min-width: 769px) and (max-width: 1279px) {
+    .main_style {
+        width: 100%;
+        max-width: 1279px;
+        min-height: 3487px;
+    }
+    .about_block {
+        width: 100%;
+        max-width: 1279px;
+        min-height: 1048px;
+        padding: 80px 0 100px;
+    }
+    .about_content {
+        width: 100%;
+        max-width: 437px;
+        min-height: 868px;
+        margin: 0 auto;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+    .about_pets {
+        width: 100%;
+        max-width: 300px;
+        min-height: 408px;
+        order: 2;
+    }
+    .content_pets {
+        width: 100%;
+        max-width: 430px;
+        min-height: 380px;
+        order: 1;
+    }
+}
+@media screen and (width: 768px) {
+    .main_style {
+        width: 100%;
+        max-width: 768px;
+        min-height: 3487px;
+    }
+    .about_block {
+        width: 100%;
+        max-width: 768px;
+        min-height: 1048px;
+        padding: 80px 0 100px;
+    }
+    .about_content {
+        width: 100vw;
+        max-width: 437px;
+        min-height: 868px;
+        margin: 0 auto;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+    .about_pets {
+        width: 100vw;
+        max-width: 300px;
+        min-height: 408px;
+        order: 2;
+    }
+    .content_pets {
+        width: 100vw;
+        max-width: 430px;
+        min-height: 380px;
+        order: 1;
+    }
+}
+@media (min-width: 321px) and (max-width: 767px) {
+    .main_style {
+        width: 100%;
+        max-width: 767px;
+        min-height: 3052px;
+    }
+    .about_block {
+        width: 100%;
+        max-width: 767px;
+        min-height: 974px;
+        padding: 42px 0;
+    }
+    .about_content {
+        width: 100%;
+        max-width: 300px;
+        min-height: 890px;
+        margin: 0 auto;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 42px;
+    }
+    .about_pets {
+        width: 100%;
+        max-width: 260px;
+        min-height: 354px;
+        order: 2;
+    }
+    .content_pets {
+        width: 100%;
+        max-width: 300px;
+        min-height: 494px;
+        align-items: center;
+        gap: 22px;
+        order: 1;
+    }
+    .heading_pets {
+        width: 100%;
+        max-width: 300px;
+        min-height: 64px;
+        font-family: 'Georgia', 'Georgia Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #545454;
+    }
+    .pets_subhead1 {
+        width: 100%;
+        max-width: 270px;
+        min-height: 144px;
+    }
+    .pets_subhead2 {
+        width: 100%;
+        max-width: 270px;
+        min-height: 239px;
+    }
+    .subhead_font {
+        font-family: 'Arial', 'Arial Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: justify;
+        color: #4C4C4C;
+    }
+}
+@media screen and (width: 320px) {
+    .main_style {
+        width: 100%;
+        max-width: 320px;
+        min-height: 3052px;
+    }
+    .about_block {
+        width: 100%;
+        max-width: 320px;
+        min-height: 974px;
+        padding: 42px 0;
+    }
+    .about_content {
+        width: 100vw;
+        max-width: 300px;
+        min-height: 890px;
+        margin: 0 auto;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 42px;
+    }
+    .about_pets {
+        width: 100vw;
+        max-width: 260px;
+        min-height: 354px;
+        order: 2;
+    }
+    .content_pets {
+        width: 100vw;
+        max-width: 300px;
+        min-height: 494px;
+        align-items: center;
+        gap: 22px;
+        order: 1;
+    }
+    .heading_pets {
+        width: 100%;
+        max-width: 300px;
+        min-height: 64px;
+        font-family: 'Georgia', 'Georgia Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #545454;
+    }
+    .pets_subhead1 {
+        width: 100%;
+        max-width: 270px;
+        min-height: 144px;
+    }
+    .pets_subhead2 {
+        width: 100%;
+        max-width: 270px;
+        min-height: 239px;
+    }
+    .subhead_font {
+        font-family: 'Arial', 'Arial Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: justify;
+        color: #4C4C4C;
+    }
+}
+@media (min-width: 240px) and (max-width: 319px) {
+    .main_style {
+        width: 100%;
+        max-width: 319px;
+        min-height: 3052px;
+    }
+    .about_block {
+        width: 100%;
+        max-width: 319px;
+        min-height: 974px;
+        padding: 42px 0;
+    }
+    .about_content {
+        width: 100%;
+        max-width: 300px;
+        min-height: 890px;
+        margin: 0 auto;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 42px;
+    }
+    .about_pets {
+        width: 100%;
+        max-width: 260px;
+        min-height: 354px;
+        order: 2;
+    }
+    .content_pets {
+        width: 100%;
+        max-width: 300px;
+        min-height: 494px;
+        align-items: center;
+        gap: 22px;
+        order: 1;
+    }
+    .heading_pets {
+        width: 100%;
+        max-width: 300px;
+        min-height: 64px;
+        font-family: 'Georgia', 'Georgia Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #545454;
+    }
+    .pets_subhead1 {
+        width: 100%;
+        max-width: 270px;
+        min-height: 144px;
+    }
+    .pets_subhead2 {
+        width: 100%;
+        max-width: 270px;
+        min-height: 239px;
+    }
+    .subhead_font {
+        font-family: 'Arial', 'Arial Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: justify;
+        color: #4C4C4C;
+    }
+}

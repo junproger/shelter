@@ -1,0 +1,80 @@
+                    <div class="pets_card">
+                        <div class="card_image pets_katrine">
+                        </div>
+                        <div class="card_title">
+                            Katrine
+                        </div>
+                        <div class="card_button">
+                            <button class="learn_more learn_more_text">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="pets_card">
+                        <div class="card_image pets_jennifer">
+                        </div>
+                        <div class="card_title">
+                            Jennifer
+                        </div>
+                        <div class="card_button">
+                            <button class="learn_more learn_more_text">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="pets_card">
+                        <div class="card_image pets_woody">
+                        </div>
+                        <div class="card_title">
+                            Woody
+                        </div>
+                        <div class="card_button">
+                            <button class="learn_more learn_more_text">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="pets_card mobi_cards">
+                        <div class="card_image pets_sophia">
+                        </div>
+                        <div class="card_title">
+                            Sophia
+                        </div>
+                        <div class="card_button">
+                            <button class="learn_more learn_more_text">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="pets_card mobi_cards">
+                        <div class="card_image pets_timmy">
+                        </div>
+                        <div class="card_title">
+                            Timmy
+                        </div>
+                        <div class="card_button">
+                            <button class="learn_more learn_more_text">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="pets_card mobi_cards">
+                        <div class="card_image pets_charly">
+                        </div>
+                        <div class="card_title">
+                            Charly
+                        </div>
+                        <div class="card_button">
+                            <button class="learn_more learn_more_text">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="pets_card tabl_cards">
+                        <div class="card_image pets_scarlet">
+                        </div>
+                        <div class="card_title">
+                            Scarlett
+                        </div>
+                        <div class="card_button">
+                            <button class="learn_more learn_more_text">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="pets_card tabl_cards">
+                        <div class="card_image pets_freddie">
+                        </div>
+                        <div class="card_title">
+                            Freddie
+                        </div>
+                        <div class="card_button">
+                            <button class="learn_more learn_more_text">Learn more</button>
+                        </div>
+                    </div>

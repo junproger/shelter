@@ -1,0 +1,507 @@
+/* footer css */
+.footer_style {
+    width: 100%;
+    max-width: 1280px;
+    min-height: 350px;
+    background: url(./../../../assets/images/noise.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%);
+    padding: 40px 40px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+}
+.footer_content {
+    width: 100%;
+    max-width: 740px;
+    min-height: 310px;
+    flex: 0 0 740px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 160px;
+}
+.footer_contacts {
+    width: 278px;
+    height: 234px;
+    flex: 0 0 278px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 16px;
+}
+.footer_locations {
+    width: 302px;
+    height: 234px;
+    flex: 0 0 302px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 16px;
+}
+.contacts_title {
+    width: 278px;
+    height: 90px;
+}
+.locations_title {
+    width: 270px;
+    height: 90px;
+}
+.contacts_fonts,
+.locations_fonts {
+    font-family: 'Georgia', 'Georgia Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.contacts_fonts {
+    letter-spacing: 0.055em;
+}
+.locations_fonts {
+    letter-spacing: 0.065em;
+}
+.email {
+    width: 251px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mail_icon {
+    width: 40px;
+    height: 32px;
+    content: url('./../../../assets/icons/icon-email.svg');
+    margin-top: 2px;
+}
+.mail_link {
+    width: 191px;
+    height: 23px;
+}
+.phone {
+    width: 239px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phone_icon {
+    width: 40px;
+    height: 32px;
+    content: url('./../../../assets/icons/icon-phone.svg');
+    margin-top: 2px;
+}
+.phone_link {
+    width: 179px;
+    height: 23px;
+}
+.boston {
+    width: 302px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.london {
+    width: 302px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon_marker {
+    width: 22px;
+    height: 32px;
+    content: url('./../../../assets/icons/icon-marker.svg');
+}
+.boston_link {
+    width: 260px;
+    height: 46px;
+}
+.london_link {
+    width: 260px;
+    height: 23px;
+}
+.links_fonts {
+    text-decoration: none;
+    font-family: 'Georgia', 'Georgia Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.055em;
+    color: #F1CDB3;
+}
+.footer_puppy {
+    width: 300px;
+    height: 310px;
+    flex: 0 0 300px;
+    background-size: contain;
+    background-image: url(./../../../assets/images/fuffy.png);
+    background-repeat: no-repeat;
+}
+@media screen and (width: 1280px) {
+    .footer_style {
+        width: 100%;
+        max-width: 1280px;
+        min-height: 350px;
+        padding: 40px 40px 0;
+        gap: 60px;
+    }
+    .footer_content {
+        width: 100%;
+        max-width: 740px;
+        min-height: 310px;
+        flex: 0 0 740px;
+        gap: 160px;
+    }
+    .footer_contacts {
+        width: 278px;
+        height: 234px;
+        flex: 0 0 278px;
+        margin-top: 16px;
+    }
+    .footer_locations {
+        width: 302px;
+        height: 234px;
+        flex: 0 0 302px;
+        margin-top: 16px;
+    }
+    .footer_puppy {
+        width: 300px;
+        height: 310px;
+        flex: 0 0 300px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1279px) {
+    .footer_style {
+        width: 100%;
+        max-width: 1279px;
+        min-height: 350px;
+        padding: 30px 30px 0;
+        flex-flow: column nowrap;
+        justify-content:flex-start;
+        align-items: center;
+        gap: 65px;
+    }
+    .footer_content {
+        width: 100%;
+        max-width: 740px;
+        min-height: 234px;
+        flex: 0 0 234px;
+        justify-content: center;
+        gap: 60px;
+    }
+    .footer_contacts,
+    .footer_locations {
+        margin-top: 0;
+    }
+    .footer_puppy {
+        width: 300px;
+        height: 310px;
+        flex: 0 0 310px;
+    }
+}
+@media screen and (width: 768px) {
+    .footer_style {
+        width: 100%;
+        max-width: 768px;
+        min-height: 639px;
+        padding: 30px 30px 0;
+        flex-flow: column nowrap;
+        justify-content:flex-start;
+        align-items: center;
+        gap: 65px;
+    }
+    .footer_content {
+        width: 100vw;
+        max-width: 708px;
+        min-height: 234px;
+        flex: 0 0 234px;
+        justify-content: center;
+        gap: 60px;
+    }
+    .footer_contacts,
+    .footer_locations {
+        margin-top: 0;
+    }
+    .footer_puppy {
+        width: 300px;
+        height: 310px;
+        flex: 0 0 310px;
+    }
+}
+@media (min-width: 321px) and (max-width: 767px) {
+    .footer_style {
+        width: 100%;
+        max-width: 767px;
+        min-height: 639px;
+        padding: 30px 10px 0;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    .footer_content {
+        width: 100%;
+        max-width: 707px;
+        min-height: 234px;
+        flex: 0 0 auto;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    .footer_contacts {
+        width: 278px;
+        height: 208px;
+        flex: 0 0 208px;
+        align-items: center;
+        margin-top: 0;
+    }
+    .footer_locations {
+        width: 300px;
+        height: 222px;
+        flex: 0 0 222px;
+        align-items: center;
+        margin-top: 0;
+    }
+    .contacts_title {
+        width: 278px;
+        height: 64px;
+    }
+    .locations_title {
+        width: 270px;
+        height: 64px;
+    }
+    .contacts_fonts,
+    .locations_fonts {
+        font-family: 'Georgia', 'Georgia Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .boston {
+        width: 300px;
+        height: 46px;
+    }
+    .london {
+        width: 300px;
+        height: 32px;
+    }
+    .boston_link {
+        width: 258px;
+        height: 46px;
+    }
+    .london_link {
+        width: 258px;
+        height: 23px;
+    }
+	.mail_icon,
+	.phone_icon {
+		margin-top: 4px;
+	}
+    .icon_marker {
+        width: 21.85px;
+        height: 32px;
+    }
+    .footer_puppy {
+        width: 260px;
+        height: 269px;
+        flex: 0 0 269px;
+    }
+}
+@media screen and (width: 320px) {
+    .footer_style {
+        width: 100%;
+        max-width: 320px;
+        min-height: 809px;
+        padding: 30px 10px 0;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    .footer_content {
+        width: 100vw;
+        max-width: 300px;
+        min-height: 470px;
+        flex: 0 0 470px;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    .footer_contacts {
+        width: 278px;
+        height: 208px;
+        flex: 0 0 208px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+    .footer_locations {
+        width: 300px;
+        height: 222px;
+        flex: 0 0 222px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+    .contacts_title {
+        width: 278px;
+        height: 64px;
+    }
+    .locations_title {
+        width: 270px;
+        height: 64px;
+    }
+    .contacts_fonts,
+    .locations_fonts {
+        font-family: 'Georgia', 'Georgia Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .boston {
+        width: 300px;
+        height: 46px;
+    }
+    .london {
+        width: 300px;
+        height: 32px;
+    }
+    .boston_link {
+        width: 258px;
+        height: 46px;
+    }
+    .london_link {
+        width: 258px;
+        height: 23px;
+    }
+	.mail_icon,
+	.phone_icon {
+		margin-top: 4px;
+	}
+    .icon_marker {
+        width: 21.85px;
+        height: 32px;
+    }
+    .footer_puppy {
+        width: 260px;
+        height: 269px;
+        flex: 0 0 269px;
+    }
+}
+@media (min-width: 240px) and (max-width: 319px) {
+    .footer_style {
+        width: 100%;
+        max-width: 319px;
+        min-height: 809px;
+        padding: 30px 10px 0;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    .footer_content {
+        width: 100%;
+        max-width: 299px;
+        min-height: 470px;
+        flex: 0 0 470px;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    .footer_contacts {
+        width: 100%;
+        max-width: 278px;
+        min-height: 208px;
+        flex: 0 0 208px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+    .footer_locations {
+        width: 100%;
+        max-width: 300px;
+        min-height: 222px;
+        flex: 0 0 222px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+    .contacts_title {
+        width: 278px;
+        height: 64px;
+    }
+    .locations_title {
+        width: 270px;
+        height: 64px;
+    }
+    .contacts_fonts,
+    .locations_fonts {
+        font-family: 'Georgia', 'Georgia Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .boston {
+        width: 100%;;
+        max-width: 300px;
+        min-height: 46px;
+    }
+    .london {
+        width: 100%;;
+        max-width: 300px;
+        min-height: 32px;
+    }
+    .boston_link {
+        width: 100%;;
+        max-width: 258px;
+        min-height: 46px;
+    }
+    .london_link {
+        width: 100%;;
+        max-width: 258px;
+        min-height: 23px;
+    }
+	.mail_icon,
+	.phone_icon {
+		margin-top: 4px;
+	}
+    .icon_marker {
+        width: 21.85px;
+        height: 32px;
+    }
+    .footer_puppy {
+        width: 260px;
+        height: 269px;
+        flex: 0 0 269px;
+    }
+}

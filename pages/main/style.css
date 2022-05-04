@@ -1,0 +1,8 @@
+/* shelter css */
+@import "./build/default.css";
+@import "./build/header.css";
+@import "./build/about.css";
+@import "./build/friends.css";
+@import "./build/helping.css";
+@import "./build/donate.css";
+@import "./build/footer.css";

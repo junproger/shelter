@@ -1,0 +1,178 @@
+<!-- shelter html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./../../assets/icons/favicon-16x16b.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./../../assets/icons/favicon-32x32b.png">
+    <link rel="stylesheet" type="text/css" href="./normalize.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Shelter Main</title>
+</head>
+<body class="body_style">
+    <a id="main"></a>
+    <div class="modal_wrapper disable">
+        <div class="modal_border disable">
+            <div class="modal_button">
+                <button class="modal_close"></button>
+            </div>
+            <div class="modal_window">
+                <div class="modal_image"><img class="big_image" data-pets="bigimg" src="" alt="img"></div>
+                <div class="modal_info">
+                    <div class="modal_head">
+                        <h3 class="modal_title" data-pets="name"></h3>
+                        <h4 class="modal_subtitle"><span data-pets="type"></span> — <span data-pets="breed"></span></h4>
+                    </div>
+                    <p class="modal_text" data-pets="description"></p>
+                    <ul class="modal_list">
+                        <li class="modal_item"><strong class="item_term">Age: </strong><span class="item_info" data-pets="age"></span></li>
+                        <li class="modal_item"><strong class="item_term">Inoculations: </strong><span class="item_info" data-pets="inoculations"></span></li>
+                        <li class="modal_item"><strong class="item_term">Diseases: </strong><span class="item_info" data-pets="diseases"></span></li>
+                        <li class="modal_item"><strong class="item_term">Parasites: </strong><span class="item_info" data-pets="parasites"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="screen_block">
+            <header class="header_style">
+                <div class="header_content">
+                    <div class="logo">
+                        <a class="logo_link" href="./index.html#main">
+                            <h1 class="logo_title">Cozy House</h1>
+                            <p class="logo_subtitle">Shelter for pets in Boston</p>
+                        </a>
+                    </div>
+                    <div class="burger">
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
+                    </div>
+                    <div class="nav_menu">
+                        <ul class="menu_list">
+                            <li class="list active">
+                                <a class="link" href="./index.html#main">About the shelter</a>
+                            </li>
+                            <li class="list">
+                                <a class="link" href="./../pets/index.html">Our pets</a>
+                            </li>
+                            <li class="list">
+                                <a class="link" href="./index.html#help">Help the shelter</a>
+                            </li>
+                            <li class="list">
+                                <a class="link" href="./index.html#contacts">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="screen_content">
+                <!-- inline block -->
+                <div class="content_puppy">
+                    <h2 class="heading">Not only people<br />need a house</h2>
+                    <p class="subheading">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
+                    <p class="wrap_button"><a class="top_button top_button_text" href="./index.html#friends">Make a friend</a></p>
+                </div><div class="screen_puppy">
+                    <!-- empty block -->
+                </div>
+            </div>
+        </div>
+        <main class="main_style">
+            <a id="about"></a>
+            <div class="about_block">
+                <div class="about_content">
+                    <div class="about_pets">
+                        <!-- empty block -->
+                    </div>
+                    <div class="content_pets">
+                        <h3 class="heading_pets"> About the shelter<br />“Cozy House”</h3>
+                        <p class="pets_subhead1 subhead_font">Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</p>
+                        <p class="pets_subhead2 subhead_font"> We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</p>
+                    </div>
+                </div>
+            </div>
+            <a id="friends"></a>
+            <div class="friends_block">
+                <div class="friends_content">
+                    <h3 class="heading_friends">
+                        Our friends who<br />are looking for a house
+                    </h3>
+                    <!-- start slider -->
+                    <!-- slider wrapper -->
+                    <div class="slider_wrapper">
+                        <div class="arrow_block_left">
+                            <button class="button_arrow_left"></button>
+                        </div>
+                        <div class="slider_frame">
+                            <div class="slider_stripe"></div>
+                        </div>
+                        <div class="arrow_block_right">
+                            <button class="button_arrow_right"></button>
+                        </div>
+                    </div>
+                    <!-- slider wrapper -->
+                    <!-- stop slider -->
+                    <p class="middle_button_block">
+                        <a class="middle_button middle_button_text" href="./../pets/index.html">Get to know the rest</a>
+                    </p>
+                </div>
+            </div>
+            <a id="help"></a>
+            <div class="help_block">
+                <div class="help_content">
+                    <h2 class="help_heading">How you can help<br />our shelter</h2>
+                    <ul class="help_list">
+                        <li class="pet_food help_icon"><h4 class="help_text">Pet food</h4></li>
+                        <li class="transportation help_icon"><h4 class="help_text">Transportation</h4></li>
+                        <li class="toys help_icon"><h4 class="help_text">Toys</h4></li>
+                        <li class="bowls help_icon"><h4 class="help_text">Bowls and cups</h4></li>
+                        <li class="shampoos help_icon"><h4 class="help_text">Shampoos</h4></li>
+                        <li class="vitamins help_icon"><h4 class="help_text">Vitamins</h4></li>
+                        <li class="medicines help_icon"><h4 class="help_text">Medicines</h4></li>
+                        <li class="collars help_icon"><h4 class="help_text">Collars / leashes</h4></li>
+                        <li class="sleeping help_icon"><h4 class="help_text">Sleeping areas</h4></li>
+                    </ul>
+                </div>
+            </div>
+            <a id="donation"></a>
+            <div class="donation_block">
+                <div class="donation_content">
+                    <div class="donation_dog">
+                        <!-- empty block -->
+                    </div>
+                    <div class="donation_donate">
+                        <h3 class="donation_heading">You can also<br />make a donation</h3>
+                        <p class="donation_subheading">Name of the bank / Type of bank account</p>
+                        <h4 class="credit_card_item"><a class="credit_card_button" href="./index.html#donation"><span class="credit_card_icon"></span><span class="credit_card_number">8380 2880 8028 8791 7435</span></a></h4>
+                        <p class="legal_inform">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <a id="contacts"></a>
+        <footer class="footer_style">
+            <div class="footer_content">
+                <div class="footer_contacts">
+                    <h3 class="contacts_title contacts_fonts">For questions and suggestions</h3>
+                    <h4 class="email"><a href="mailto:email@shelter.com"><span class="mail_icon"></span></a><a class="mail_link links_fonts" href="mailto:email@shelter.com">email@shelter.com</a></h4>
+                    <h4 class="phone"><a href="tel:+136745677554"><span class="phone_icon"></span></a><a class="phone_link links_fonts" href="tel:+136745677554">+13 674 567 75 54</a></h4>
+                </div>
+                <div class="footer_locations">
+                    <h3 class="locations_title locations_fonts">We are waiting for your visit</h3>
+                    <h4 class="boston"><a target="new" href="https://goo.gl/maps/GzreY6nbx9MQsGZ17"><span class="icon_marker"></span></a><a class="boston_link links_fonts" target="new" href="https://goo.gl/maps/GzreY6nbx9MQsGZ17">1 Central Street, Boston (entrance from the store)</a></h4>
+                    <h4 class="london"><a target="new" href="https://goo.gl/maps/hyhQSUH6CrT42Bw27"><span class="icon_marker"></span></a><a class="london_link links_fonts" target="new" href="https://goo.gl/maps/hyhQSUH6CrT42Bw27">18 South Park, London</a></h4>
+                </div>
+            </div>
+            <div class="footer_puppy">
+                <!-- empty block -->
+            </div>
+        </footer>
+    </div>
+    <script src="./object.js"></script>
+    <script src="./script.js"></script>
+    <script src="./slider.js"></script>
+</body>
+</html>

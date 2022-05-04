@@ -1,0 +1,43 @@
+function getRandomFragment(side, numb) {
+    let point = fixedCounterNumber;
+    if (side === 'right') {
+        let start = 0;
+        for (let i = point; i < (point + numb); i++) {
+            console.log(objKeys[i]);
+        };
+    fixedCounterNumber += numb;
+    } else if (side === 'left') {
+        let start = 7;
+    };
+};
+
+
+        getRandomFragment('right', controlPoinsNumber);
+		
+		
+		getRandomFragment('left', controlPoinsNumber);
+				
+				
+		let workArr = [];
+		function generator(numb) {
+			let i = 0;
+			while (i < (numb * numb)) {
+				workArr.push(...objKeys);
+				i += 1;
+			};
+		};
+		
+		generator(controlPoinsNumber);
+		
+		
+		let workArr = [];
+		function generator(numb) {
+			let i = 0;
+			while (i < numb) {
+				let rand = Math.floor(Math.random() * (numb + i));
+				workArr.push(objKeys[rand]);
+				i += 1;
+			};
+		};
+
+		generator(controlPoinsNumber);

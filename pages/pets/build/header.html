@@ -1,0 +1,76 @@
+<!-- shelter html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./../../assets/icons/favicon-16x16b.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./../../assets/icons/favicon-32x32b.png">
+    <link rel="stylesheet" type="text/css" href="./normalize.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Shelter Pets</title>
+</head>
+<body class="body_style">
+    <a id="pets"></a>
+    <div class="modal_wrapper disable">
+        <div class="modal_border disable">
+            <div class="modal_button">
+                <button class="modal_close"></button>
+            </div>
+            <div class="modal_window">
+                <div class="modal_image"><img class="big_image" data-pets="bigimg" src="" alt="img"></div>
+                <div class="modal_info">
+                    <div class="modal_head">
+                        <h3 class="modal_title" data-pets="name"></h3>
+                        <h4 class="modal_subtitle"><span data-pets="type"></span> — <span data-pets="breed"></span></h4>
+                    </div>
+                    <p class="modal_text" data-pets="description"></p>
+                    <ul class="modal_list">
+                        <li class="modal_item"><strong class="item_term">Age: </strong><span class="item_info" data-pets="age"></span></li>
+                        <li class="modal_item"><strong class="item_term">Inoculations: </strong><span class="item_info" data-pets="inoculations"></span></li>
+                        <li class="modal_item"><strong class="item_term">Diseases: </strong><span class="item_info" data-pets="diseases"></span></li>
+                        <li class="modal_item"><strong class="item_term">Parasites: </strong><span class="item_info" data-pets="parasites"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <header class="header_style">
+            <div class="header_content">
+                <div class="logo">
+                    <a class="logo_link" href="./../main/index.html">
+                        <h1 class="logo_title">Cozy House</h1>
+                        <p class="logo_subtitle">Shelter for pets in Boston</p>
+                    </a>
+                </div>
+                <div class="burger">
+                    <span class="line1"></span>
+                    <span class="line2"></span>
+                    <span class="line3"></span>
+                </div>
+                <div class="nav_menu">
+                    <ul class="menu_list">
+                        <li class="list">
+                            <a class="link" href="./../main/index.html">About the shelter</a>
+                        </li>
+                        <li class="list active">
+                            <a class="link" href="./index.html#pets">Our pets</a>
+                        </li>
+                        <li class="list">
+                            <a class="link" href="./../main/index.html#help">Help the shelter</a>
+                        </li>
+                        <li class="list">
+                            <a class="link" href="./index.html#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+    <script src="./object.js"></script>
+    <script src="./script.js"></script>
+    <script src="./paging.js"></script>
+</body>
+</html>
